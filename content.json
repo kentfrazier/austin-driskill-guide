@@ -1,0 +1,1847 @@
+{
+  "entertainment-notes": {
+    "date": "2026-11-07",
+    "dateLabel": "Saturday, November 7, 2026",
+    "timezone": "America/Chicago",
+    "timezoneLabel": "All times are Austin time (CST).",
+    "checkedOn": "2026-11-06",
+    "ticketNote": "Show listings and advertised prices were checked November 6. Use the official ticket links for current availability.",
+    "travelNote": "Walk and ride times are estimates from The Driskill, not live route calculations.",
+    "festival": {
+      "name": "Out of Bounds Comedy Festival",
+      "dates": "November 5–8, 2026",
+      "saturdayOnly": true,
+      "description": "The festival supplies this Saturday’s special programming at Fallout, ColdTowne and Dougherty. Bills can mix improv, sketch, clowning and music; the formats below help you choose.",
+      "bookingAdvice": "For one or two shows, buy individual tickets. General admission is $22.35 including fees per block; eligible students, seniors and active military pay $17.10 including fees. An all-access badge is $129 and still requires show reservations.",
+      "availabilityNote": "Several recommended blocks offered tickets when checked November 6. Availability can change; each block has its own ticket page.",
+      "links": [
+        {
+          "label": "Festival schedule",
+          "url": "https://oobfest.com/out-of-bounds-comedy-festival-schedule/"
+        },
+        {
+          "label": "Festival tickets",
+          "url": "https://www.crowdwork.com/festivals/out-of-bounds-comedy-festival"
+        },
+        {
+          "label": "Badge terms",
+          "url": "https://www.crowdwork.com/v/outofboundscomedyfestival/memberships/2026-all-access-badge"
+        }
+      ]
+    },
+    "hideout": {
+      "name": "The Hideout Theatre",
+      "address": "5555 N Lamar Blvd, Suite B103, Austin, TX 78751",
+      "status": "The Hideout has moved to North Lamar. No public show for Saturday, November 7 was confirmed on its current calendar when checked, so it is not listed as a Saturday option.",
+      "tip": "Use the new North Lamar address if visiting; the old Congress Avenue location is no longer the destination.",
+      "links": [
+        {
+          "label": "Current calendar",
+          "url": "https://hideouttheatre.com/calendar/"
+        },
+        {
+          "label": "New location and FAQs",
+          "url": "https://hideouttheatre.com/about/faq/"
+        }
+      ]
+    },
+    "hotelMusic": {
+      "name": "The Victorian",
+      "status": "The venue advertises Thursday–Saturday music from 9pm to midnight, but no named November 7 act was confirmed. Treat it as a convenient possibility to check with the hotel rather than a dated show recommendation.",
+      "links": [
+        {
+          "label": "Live music information",
+          "url": "https://www.thevictorianbar.com/live-music"
+        }
+      ]
+    },
+    "unknownPrices": [
+      "Parker Jazz Club",
+      "The Continental Club",
+      "Broken Spoke"
+    ]
+  },
+  "entertainment": [
+    {
+      "id": "antones-soul-man-sam",
+      "name": "Soul Man Sam at Antone’s",
+      "section": "entertainment",
+      "category": "Live music",
+      "kicker": "An easy downtown blues-and-soul night",
+      "description": "A strong choice for a classic Austin music evening without a car. Soul Man Sam brings blues and soul to Antone’s, a short walk from the hotel. Plan on a lively club show: general admission is mainly standing, with only limited seating available on a first-come basis.",
+      "address": "305 E 5th St, Austin, TX 78701",
+      "travel": "5–7 min walk",
+      "mode": "walk",
+      "tags": [
+        "Blues & soul",
+        "21+",
+        "Mostly standing"
+      ],
+      "date": "2026-11-07",
+      "time": "9pm show · 8pm doors",
+      "price": "Artist lists $15 cover; online fees may apply",
+      "bestFor": "The simplest nearby live-music outing",
+      "tip": "Have dinner downtown, then arrive closer to doors if a seat matters. A ticket does not reserve seating.",
+      "links": [
+        {
+          "label": "Show & tickets",
+          "url": "https://antonesnightclub.com/tm-event/soul-man-sam/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Antone’s dated show listing",
+          "url": "https://antonesnightclub.com/tm-event/soul-man-sam/"
+        },
+        {
+          "label": "Soul Man Sam’s calendar",
+          "url": "https://soulmansam.com/"
+        },
+        {
+          "label": "Antone’s venue information",
+          "url": "https://antonesnightclub.com/about/"
+        }
+      ]
+    },
+    {
+      "id": "parker-kris-kimura",
+      "name": "Kris Kimura Quartet at Parker",
+      "section": "entertainment",
+      "category": "Live music",
+      "kicker": "Reserved seats and American Songbook jazz",
+      "description": "Kris Kimura joins the Ryan Davis Trio for vocals, woodwinds and familiar jazz standards. This intimate listening room is the best fit for a group that wants to sit comfortably and focus on the performance. Choose the early show for an easier evening or the later set after dinner.",
+      "address": "117 W 4th St, Austin, TX 78701",
+      "travel": "8–12 min walk",
+      "mode": "walk",
+      "tags": [
+        "Jazz",
+        "21+",
+        "Reserved seating"
+      ],
+      "date": "2026-11-07",
+      "time": "7pm or 9:30pm",
+      "price": "Check ticket page for current seat prices",
+      "bestFor": "A seated jazz evening",
+      "tip": "Choose seats together when booking. The room is geared toward listening, so save extended conversation for before or after the set.",
+      "links": [
+        {
+          "label": "Choose a show",
+          "url": "https://parker-jazz.turntabletickets.com/shows/545/2026-11-07"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Parker’s November 7 listing",
+          "url": "https://parker-jazz.turntabletickets.com/shows/545/2026-11-07"
+        },
+        {
+          "label": "Parker venue FAQs",
+          "url": "https://www.parkerjazzclub.com/faqs"
+        }
+      ]
+    },
+    {
+      "id": "elephant-tommy-howard",
+      "name": "Tommy Howard Quintet at Elephant Room",
+      "section": "entertainment",
+      "category": "Live music",
+      "kicker": "An old-school basement jazz bar",
+      "description": "Head downstairs on Congress Avenue for a small, atmospheric jazz room with an informal bar feel. Tommy Howard’s quintet plays Saturday at 9pm. It is an appealing option when the group would rather pay a modest cover at the door than choose a reserved-seat show in advance.",
+      "address": "315 Congress Ave, Austin, TX 78701",
+      "travel": "7–10 min walk",
+      "mode": "walk",
+      "tags": [
+        "Jazz",
+        "21+",
+        "First-come seating"
+      ],
+      "date": "2026-11-07",
+      "time": "9pm music · bar opens 8pm",
+      "price": "$10 Saturday cover from 8pm",
+      "bestFor": "Casual jazz and drinks",
+      "tip": "Arrive around opening if you want the best chance of seats together. Reservations are not available.",
+      "links": [
+        {
+          "label": "Saturday calendar",
+          "url": "https://elephantroom.com/calendar"
+        },
+        {
+          "label": "Venue details",
+          "url": "https://elephantroom.com/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Elephant Room calendar",
+          "url": "https://elephantroom.com/calendar"
+        },
+        {
+          "label": "Hours, cover and seating policy",
+          "url": "https://elephantroom.com/"
+        }
+      ]
+    },
+    {
+      "id": "flamingo-kabaka-pyramid",
+      "name": "Kabaka Pyramid & Bebble Rockers",
+      "section": "entertainment",
+      "category": "Live music",
+      "kicker": "Reggae at Flamingo Cantina",
+      "description": "A more energetic late-night option on East Sixth: Kabaka Pyramid blends reggae, hip-hop and dancehall with his band, the Bebble Rockers. Ras I-Dre and the Royal Frequency open, with DJ Mista B also on the bill. Choose this for dancing and a full club night rather than an early finish.",
+      "address": "515 E 6th St, Austin, TX 78701",
+      "travel": "6–8 min walk",
+      "mode": "walk",
+      "tags": [
+        "Reggae",
+        "21+",
+        "Late night"
+      ],
+      "date": "2026-11-07",
+      "time": "9pm doors · headliner time not posted",
+      "price": "$35 advance / $45 day of show, plus any fees",
+      "bestFor": "A lively reggae night",
+      "tip": "The advertised 9pm time is doors, not a confirmed Kabaka Pyramid start time.",
+      "links": [
+        {
+          "label": "Show & tickets",
+          "url": "https://flamingocantina.com/event/kabaka-pyramd-bebble-rockers/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Flamingo Cantina event page",
+          "url": "https://flamingocantina.com/event/kabaka-pyramd-bebble-rockers/"
+        }
+      ]
+    },
+    {
+      "id": "continental-peterson-brothers",
+      "name": "The Peterson Brothers at Continental Club",
+      "section": "entertainment",
+      "category": "Live music",
+      "kicker": "Blues, soul and funk on South Congress",
+      "description": "The Peterson Brothers mix blues, soul, funk and jazz at one of South Congress’s longstanding music clubs. The relatively early set makes this easy to pair with a South Congress stroll and dinner. It is a worthwhile short ride if the group wants to see a different part of Austin.",
+      "address": "1315 S Congress Ave, Austin, TX 78704",
+      "travel": "10–15 min ride · 30–35 min walk",
+      "mode": "ride",
+      "tags": [
+        "Blues & soul",
+        "21+",
+        "South Congress"
+      ],
+      "date": "2026-11-07",
+      "time": "8–9:30pm · 7:30pm doors",
+      "price": "Check ticket page for current price",
+      "bestFor": "A South Congress evening",
+      "tip": "Plan around this particular set; the club may have a separate event later in the evening.",
+      "links": [
+        {
+          "label": "Check tickets",
+          "url": "https://www.eventbrite.com/e/the-peterson-brothers-live-at-the-continental-club-11726-tickets-1999823253184"
+        },
+        {
+          "label": "Artist calendar",
+          "url": "https://www.petersonbrothersband.com/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Dated ticket listing",
+          "url": "https://www.eventbrite.com/e/the-peterson-brothers-live-at-the-continental-club-11726-tickets-1999823253184"
+        },
+        {
+          "label": "The Peterson Brothers",
+          "url": "https://www.petersonbrothersband.com/"
+        }
+      ]
+    },
+    {
+      "id": "broken-spoke-dale-watson",
+      "name": "Dale Watson at Broken Spoke",
+      "section": "entertainment",
+      "category": "Live music",
+      "kicker": "Traditional country and two-stepping",
+      "description": "Make this the evening’s destination if country music and dancing appeal. Dale Watson plays the Broken Spoke dancehall at 9pm, and the earlier two-step lesson offers a way to join in even without much experience. The atmosphere and location make this more of an outing than a quick downtown stop.",
+      "address": "3201 S Lamar Blvd, Austin, TX 78704",
+      "travel": "15–20 min ride",
+      "mode": "ride",
+      "tags": [
+        "Country",
+        "Dancing",
+        "All ages"
+      ],
+      "date": "2026-11-07",
+      "time": "9pm show · dance lesson 8–9pm",
+      "price": "Lesson $10 + cover; check venue for Saturday cover",
+      "bestFor": "A traditional Texas dancehall night",
+      "tip": "The dancehall opens at 7:15pm. The venue asks lesson participants to arrive by 7:30pm to sign up for the 8pm class.",
+      "links": [
+        {
+          "label": "Venue calendar",
+          "url": "https://www.brokenspokeaustintx.net/events-calendar"
+        },
+        {
+          "label": "Dance lessons",
+          "url": "https://www.brokenspokeaustintx.net/dance-lessons"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Broken Spoke November calendar",
+          "url": "https://www.brokenspokeaustintx.net/events-calendar"
+        },
+        {
+          "label": "Broken Spoke dance lessons",
+          "url": "https://www.brokenspokeaustintx.net/dance-lessons"
+        }
+      ]
+    },
+    {
+      "id": "saxon-pub-saturday",
+      "name": "An afternoon or early evening at Saxon Pub",
+      "section": "entertainment",
+      "category": "Live music",
+      "kicker": "Free afternoon music or Courtney Patton at 6",
+      "description": "Saxon Pub offers a useful daytime music option: Suburban Beat plays a free afternoon set. Return or stay in the neighborhood for Courtney Patton’s early evening show, with country and Americana songwriting. These are separate performances, so the free afternoon listing does not include admission to the later show.",
+      "address": "1320 S Lamar Blvd, Austin, TX 78704",
+      "travel": "10–15 min ride",
+      "mode": "ride",
+      "tags": [
+        "Americana",
+        "Afternoon option",
+        "Early evening"
+      ],
+      "date": "2026-11-07",
+      "time": "Suburban Beat 3–4:30pm · Courtney Patton 6–7:30pm",
+      "price": "Afternoon free, tips appreciated · Courtney $25 advance",
+      "bestFor": "Hearing music without staying out late",
+      "tip": "Courtney Patton’s show is 21+. Advance admission gets you in but does not guarantee a seat.",
+      "links": [
+        {
+          "label": "Free afternoon set",
+          "url": "https://thesaxonpub.com/event/suburban-beat-2/"
+        },
+        {
+          "label": "Courtney Patton tickets",
+          "url": "https://thesaxonpub.com/event/courtney-patton-3/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Suburban Beat on November 7",
+          "url": "https://thesaxonpub.com/event/suburban-beat-2/"
+        },
+        {
+          "label": "Courtney Patton on November 7",
+          "url": "https://thesaxonpub.com/event/courtney-patton-3/"
+        }
+      ]
+    },
+    {
+      "id": "oob-fallout-six",
+      "name": "Out of Bounds at Fallout Theater",
+      "section": "entertainment",
+      "category": "Improv",
+      "kicker": "The easiest festival show to reach on foot",
+      "description": "This 6pm festival bill combines Booze & The Boys, Comedy Fusion, and Touch Baseball with guest Oscar Montoya. Expect a mix of theatrical improv, stand-up meeting improv, and a character-driven scene. Fallout is the most convenient Out of Bounds venue from the hotel, leaving the rest of the evening open.",
+      "address": "616 Lavaca St, Austin, TX 78701",
+      "travel": "8–12 min walk",
+      "mode": "walk",
+      "tags": [
+        "Out of Bounds",
+        "Improv & stand-up",
+        "Early evening"
+      ],
+      "date": "2026-11-07",
+      "time": "6pm",
+      "price": "$22.35 general admission, including fees",
+      "bestFor": "A convenient first taste of the festival",
+      "tip": "Buy the individual show ticket if this is your only festival stop. Discount tickets for students, seniors and active military are $17.10 including fees.",
+      "links": [
+        {
+          "label": "Check tickets",
+          "url": "https://www.crowdwork.com/e/fallout-booze-the-boys-cle-comedy-fusion-atx-touch-baseball-stl-with-oscar-montoya"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official festival ticket listing",
+          "url": "https://www.crowdwork.com/e/fallout-booze-the-boys-cle-comedy-fusion-atx-touch-baseball-stl-with-oscar-montoya"
+        }
+      ],
+      "details": [
+        "Fallout also hosts festival bills at 8pm and 10pm; see the full Saturday schedule below."
+      ]
+    },
+    {
+      "id": "oob-cabaret-eight",
+      "name": "Musical comedy at ColdTowne Cabaret",
+      "section": "entertainment",
+      "category": "Improv",
+      "kicker": "Out of Bounds: songs, a blind date and a musical",
+      "description": "For a varied, music-friendly comedy evening, this Cabaret bill pairs Lizzie Kaniecki’s comedy songs with Meet Cute, where a real blind date inspires improv, and Kyle & Kendon: The Musical. The last act creates a musical on the spot. ColdTowne’s Main Stage and Cabaret share the same East Austin address.",
+      "address": "1700 E 2nd St, Austin, TX 78702",
+      "travel": "10–15 min ride · 30–35 min walk",
+      "mode": "ride",
+      "tags": [
+        "Out of Bounds",
+        "Musical improv",
+        "East Austin"
+      ],
+      "date": "2026-11-07",
+      "time": "8pm",
+      "price": "$22.35 general admission, including fees",
+      "bestFor": "A group that enjoys musical comedy",
+      "tip": "Choose the Cabaret 8pm listing when booking; the Main Stage has a different show at the same time.",
+      "links": [
+        {
+          "label": "Check tickets",
+          "url": "https://www.crowdwork.com/e/cabaret-lizzie-kaniecki-chi-meet-cute-dc-kyle-kendon-the-musical-okc"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official Cabaret ticket listing",
+          "url": "https://www.crowdwork.com/e/cabaret-lizzie-kaniecki-chi-meet-cute-dc-kyle-kendon-the-musical-okc"
+        }
+      ],
+      "details": [
+        "The Cabaret’s 6pm bill is another good variety pick: But of Mind, Wickey and Ivories Guy, with improv ranging from a Twilight Zone-style story to music."
+      ]
+    },
+    {
+      "id": "oob-dougherty-six",
+      "name": "Out of Bounds at Dougherty Arts Center",
+      "section": "entertainment",
+      "category": "Improv",
+      "kicker": "Three improv groups in an early festival slot",
+      "description": "Y’All We Asian, Gooses and The Knuckleball Now! share this 6pm bill at Dougherty Arts Center. It is a straightforward choice for a group specifically interested in improv, with three different teams in one festival block. The venue is south of the river, so allow time for the ride from downtown.",
+      "address": "1110 Barton Springs Rd, Austin, TX 78704",
+      "travel": "10–15 min ride · 35–45 min walk",
+      "mode": "ride",
+      "tags": [
+        "Out of Bounds",
+        "Improv",
+        "Early evening"
+      ],
+      "date": "2026-11-07",
+      "time": "6pm",
+      "price": "$22.35 general admission, including fees",
+      "bestFor": "An early show devoted to improv",
+      "tip": "Terry Black’s is nearby on Barton Springs Road, but leave a generous buffer if combining barbecue with a fixed showtime.",
+      "links": [
+        {
+          "label": "Check tickets",
+          "url": "https://www.crowdwork.com/e/dougherty-y-all-we-asian-atx-gooses-nyc-the-knuckleball-now-atx"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official Dougherty ticket listing",
+          "url": "https://www.crowdwork.com/e/dougherty-y-all-we-asian-atx-gooses-nyc-the-knuckleball-now-atx"
+        }
+      ],
+      "details": [
+        "Dougherty also has festival blocks at 8pm and 10pm. The 8pm bill includes Drunk Theatre and is a rowdier adult choice."
+      ]
+    },
+    {
+      "id": "esthers-follies",
+      "name": "Esther’s Follies",
+      "section": "entertainment",
+      "category": "Comedy & variety",
+      "kicker": "Sketches, political satire, music and magic",
+      "description": "A long-running Austin variety show with topical sketches, musical numbers and stage magic, just a few blocks along Sixth Street. This is a useful choice when the group wants a polished comedy show with several kinds of entertainment in one sitting. The format is scripted variety rather than an improv bill.",
+      "address": "525 E 6th St, Austin, TX 78701",
+      "travel": "7–10 min walk",
+      "mode": "walk",
+      "tags": [
+        "Sketch comedy",
+        "Magic",
+        "90 minutes"
+      ],
+      "date": "2026-11-07",
+      "time": "7–8:30pm or 9–10:30pm",
+      "price": "Advertised from $30 + $5.75 service fee",
+      "bestFor": "A walkable comedy-and-magic show",
+      "tip": "Reserve the specific Saturday performance you want. Expect political satire and adult humor.",
+      "links": [
+        {
+          "label": "Check tickets",
+          "url": "https://www.esthersfollies.com/tickets"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Esther’s show information and pricing",
+          "url": "https://www.esthersfollies.com/"
+        },
+        {
+          "label": "November 7 comedy calendar",
+          "url": "https://comedyaustin.com/calendar?date=2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": "comedysportz-round-rock",
+      "name": "ComedySportz in Round Rock",
+      "section": "entertainment",
+      "category": "Improv",
+      "kicker": "Clean, all-ages comedy — farther afield",
+      "description": "Teams compete in improv games shaped by audience suggestions, making this the clearest all-ages comedy option in the list. It is held at Premier Music Academy in Round Rock, well outside the downtown walking area. Choose it if clean, family-friendly improv matters enough to justify the longer drive.",
+      "address": "1400 E Old Settlers Blvd, Suite 116, Round Rock, TX 78664",
+      "travel": "30–45 min ride",
+      "mode": "ride",
+      "tags": [
+        "All ages",
+        "Improv games",
+        "Longer ride"
+      ],
+      "date": "2026-11-07",
+      "time": "7:30–9pm",
+      "price": "Listed at $15; check any ticketing fees",
+      "bestFor": "Clean improv for a mixed-age group",
+      "tip": "Budget for the return ride as well as the ticket. This is in Round Rock, not central Austin.",
+      "links": [
+        {
+          "label": "Show calendar & tickets",
+          "url": "https://www.comedysportzaustin.com/upcoming-shows"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ComedySportz official show calendar",
+          "url": "https://www.comedysportzaustin.com/upcoming-shows"
+        },
+        {
+          "label": "November 7 comedy calendar",
+          "url": "https://comedyaustin.com/calendar?date=2026-11-07"
+        }
+      ]
+    }
+  ],
+  "explore-bars": [
+    {
+      "id": "driskill-history",
+      "name": "The Driskill's historic interiors",
+      "section": "explore",
+      "category": "History",
+      "kicker": "Start right where you're staying",
+      "description": "The hotel itself is a worthwhile first stop. Opened in 1886 by cattle baron Jesse Driskill, it has hosted generations of Texas political and cultural life. Take a few unhurried minutes with the lobby, historic details and public gathering spaces before heading out into the city.",
+      "address": "604 Brazos Street, Austin, TX 78701",
+      "travel": "Inside the hotel",
+      "mode": "walk",
+      "tags": [
+        "At the hotel",
+        "Indoors",
+        "Free"
+      ],
+      "hours": "A flexible stop before or after the day's outings",
+      "price": "Free to explore the hotel's public areas",
+      "bestFor": "A short introduction to old Austin",
+      "tip": "Ask the concierge about the building's stories and any guided history offerings during your stay.",
+      "links": [
+        {
+          "label": "Hotel history",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/aushd-the-driskill/history"
+        }
+      ],
+      "sources": [
+        {
+          "label": "The Driskill: hotel history",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/aushd-the-driskill/history"
+        }
+      ]
+    },
+    {
+      "id": "texas-capitol",
+      "name": "Texas Capitol & grounds",
+      "section": "explore",
+      "category": "History",
+      "kicker": "The easy first-time Austin pick",
+      "description": "Walk north toward the Capitol for architecture, Texas history and a good sense of the city's geography. The free guided tour is an easy way to get more from the visit, with guides explaining the building and legislature. Leave time to wander the landscaped grounds and look back down Congress Avenue.",
+      "address": "1100 Congress Avenue, Austin, TX 78701",
+      "travel": "10–15 min walk",
+      "mode": "walk",
+      "tags": [
+        "Free",
+        "Guided tours",
+        "Indoors & outdoors"
+      ],
+      "hours": "Saturday: building 9am–8pm; guided tours 9am–4:15pm",
+      "price": "Free admission and tours",
+      "bestFor": "History, architecture and an easy morning outing",
+      "tip": "Tours generally leave every 15–30 minutes, last about 40 minutes and start inside the South Foyer. Small groups can join without arranging a large-group visit.",
+      "links": [
+        {
+          "label": "Tour information",
+          "url": "https://tspb.texas.gov/plan/tours/tours.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Texas State Preservation Board: tours",
+          "url": "https://tspb.texas.gov/plan/tours/tours.html"
+        },
+        {
+          "label": "Texas State Preservation Board: hours and address",
+          "url": "https://tspb.texas.gov/plan/hours/hours.html"
+        }
+      ]
+    },
+    {
+      "id": "bullock-museum",
+      "name": "Bullock Texas State History Museum",
+      "section": "explore",
+      "category": "Museums",
+      "kicker": "A deeper look at Texas",
+      "description": "An appealing follow-on to the Capitol, with three floors devoted to Texas history. The remains of the seventeenth-century French ship La Belle are a standout. This is a good choice when the family wants a substantial indoor activity; allow a couple of hours rather than trying to squeeze it into a quick stop.",
+      "address": "1800 Congress Avenue, Austin, TX 78701",
+      "travel": "20–25 min walk",
+      "mode": "walk",
+      "tags": [
+        "Indoors",
+        "History",
+        "Longer walk"
+      ],
+      "hours": "Saturday: 10am–5pm",
+      "price": "Adult museum admission $22; films are separate",
+      "bestFor": "Texas history and an afternoon indoors",
+      "tip": "Pair it with the Capitol or nearby Blanton. Choose one museum for a relaxed visit; doing both makes a much fuller day.",
+      "links": [
+        {
+          "label": "Museum & tickets",
+          "url": "https://tickets.thestoryoftexas.com/mainstore?vid=0"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Bullock Museum: admission and hours",
+          "url": "https://tickets.thestoryoftexas.com/mainstore?vid=0"
+        },
+        {
+          "label": "Texas State Preservation Board: location",
+          "url": "https://tspb.texas.gov/plan/hours/hours.html"
+        },
+        {
+          "label": "Bullock Museum: La Belle exhibition",
+          "url": "https://www.thestoryoftexas.com/upload/files/Ship-anchors-early-Texas-history.pdf"
+        }
+      ]
+    },
+    {
+      "id": "blanton-museum",
+      "name": "Blanton Museum of Art",
+      "section": "explore",
+      "category": "Museums",
+      "kicker": "Art, color and a quiet pause",
+      "description": "The art-focused alternative to the Bullock, at the south edge of the UT campus. Its special draw is Ellsworth Kelly's Austin, a building conceived as an artwork, with luminous colored windows and a contemplative interior. Museum admission includes Austin as well as the collection galleries and special exhibitions.",
+      "address": "200 East Martin Luther King Jr. Boulevard, Austin, TX 78712",
+      "travel": "25–30 min walk",
+      "mode": "walk",
+      "tags": [
+        "Indoors",
+        "Art & architecture",
+        "Longer walk"
+      ],
+      "hours": "Saturday: 10am–8pm",
+      "price": "Adults $15; seniors 65+ $12",
+      "bestFor": "Art lovers and a slower afternoon",
+      "tip": "The later Saturday closing gives you more flexibility than the Bullock. Visit Austin in daylight to appreciate the colored glass.",
+      "links": [
+        {
+          "label": "Plan a visit",
+          "url": "https://blantonmuseum.org/visit/"
+        },
+        {
+          "label": "Ellsworth Kelly's Austin",
+          "url": "https://blantonmuseum.org/permanent-collection/austin/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Blanton: hours and admission",
+          "url": "https://blantonmuseum.org/visit/"
+        },
+        {
+          "label": "Blanton: Austin by Ellsworth Kelly",
+          "url": "https://blantonmuseum.org/permanent-collection/austin/"
+        },
+        {
+          "label": "Blanton: admission inclusions",
+          "url": "https://blantonmuseum.org/visit/faqs/"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-park",
+      "name": "Waterloo Park",
+      "section": "explore",
+      "category": "Outdoors",
+      "kicker": "Gardens and a Saturday morning celebration",
+      "description": "A convenient green break near the Capitol, with landscaped paths, gathering spaces and the Moody Amphitheater. On this particular Saturday, the free Morning Glories Diwali celebration adds cultural performances, storytelling and hands-on activities. It is aimed especially at families with children, but makes a cheerful stop during a morning walk.",
+      "address": "Waterloo Park, 1301 Trinity Street, Austin, TX 78701",
+      "travel": "12–18 min walk",
+      "mode": "walk",
+      "tags": [
+        "Outdoors",
+        "Free",
+        "Saturday morning"
+      ],
+      "hours": "Park generally 5am–10pm; event access can vary. Diwali: Saturday Nov 7, 9am–noon",
+      "price": "Park and Diwali program are free",
+      "bestFor": "Fresh air between downtown sights",
+      "tip": "The Diwali activities take place at Meredith Heritage Tree Deck. Waterloo Greenway's new southern parkland is a separate option near the lake; the stretch between 4th and 12th Streets is still being developed.",
+      "links": [
+        {
+          "label": "Park information",
+          "url": "https://waterloogreenway.org/visit/"
+        },
+        {
+          "label": "Saturday Diwali event",
+          "url": "https://waterloogreenway.org/events/morning-glories-diwali/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Waterloo Greenway: park hours and current sections",
+          "url": "https://waterloogreenway.org/visit/"
+        },
+        {
+          "label": "Waterloo Greenway: Nov 7 Diwali program",
+          "url": "https://waterloogreenway.org/events/morning-glories-diwali/"
+        },
+        {
+          "label": "Waterloo Greenway: park entrance address",
+          "url": "https://waterloogreenway.org/events/3-volunteer-opportunity-monarch-butterfly-tagging-at-waterloo-park/"
+        }
+      ]
+    },
+    {
+      "id": "central-library",
+      "name": "Central Library & Seaholm",
+      "section": "explore",
+      "category": "Neighborhoods",
+      "kicker": "A free view with a good lunch nearby",
+      "description": "This is an excellent stop even if you are not looking for a book: explore the airy interior, then head to the roof garden for views toward downtown and Lady Bird Lake. The surrounding Seaholm and 2nd Street area makes it easy to combine the visit with lunch, a little browsing or dessert.",
+      "address": "710 West César Chávez Street, Austin, TX 78701",
+      "travel": "18–22 min walk",
+      "mode": "walk",
+      "tags": [
+        "Free",
+        "Views",
+        "Indoors & outdoors",
+        "Architecture"
+      ],
+      "hours": "Saturday: 10am–5pm",
+      "price": "Free",
+      "bestFor": "Architecture, lake views and a relaxed afternoon",
+      "tip": "Pair it with Local Foods or Flower Child for lunch, then The Baked Bear for dessert. The library connects to nearby trails if everyone wants a longer stroll.",
+      "links": [
+        {
+          "label": "Library information",
+          "url": "https://library.austintexas.gov/central-library"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Austin Public Library: hours and location",
+          "url": "https://library.austintexas.gov/central-library"
+        },
+        {
+          "label": "Austin Public Library: roof garden",
+          "url": "https://library.austintexas.gov/node/1734923"
+        }
+      ]
+    },
+    {
+      "id": "lady-bird-trail",
+      "name": "Lady Bird Lake & the Butler Trail",
+      "section": "explore",
+      "category": "Outdoors",
+      "kicker": "Choose your own length of lake walk",
+      "description": "Walk down Congress Avenue to the lake, then enjoy a manageable section of the waterfront trail. You can turn around whenever you like, or head west toward the library and pedestrian bridge. The complete trail is ten miles, so a short out-and-back is a better fit for a day with other plans.",
+      "address": "Ann and Roy Butler Trail at Congress Avenue Bridge, Austin, TX 78701",
+      "travel": "12–15 min walk to the lake",
+      "mode": "walk",
+      "tags": [
+        "Free",
+        "Outdoors",
+        "Flexible length"
+      ],
+      "hours": "Plan this as a daylight outing",
+      "price": "Free",
+      "bestFor": "A little exercise and skyline views",
+      "tip": "Keep the walk west of Congress for an easy link with the library. If exploring farther east, check the trail's current detour map because work near I-35 affects parts of the boardwalk.",
+      "links": [
+        {
+          "label": "Trail information",
+          "url": "https://thetrailconservancy.org/visit/"
+        },
+        {
+          "label": "Current detours",
+          "url": "https://thetrailconservancy.org/visit/detours/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "The Trail Conservancy: visiting the Butler Trail",
+          "url": "https://thetrailconservancy.org/visit/"
+        },
+        {
+          "label": "The Trail Conservancy: current construction and detours",
+          "url": "https://thetrailconservancy.org/visit/detours/"
+        }
+      ]
+    },
+    {
+      "id": "south-congress",
+      "name": "South Congress browsing",
+      "section": "explore",
+      "category": "Neighborhoods",
+      "kicker": "Boots, murals and an unhurried wander",
+      "description": "For a change from downtown, browse the shops and murals around South Congress. Think boots, gifts, coffee stops and people-watching rather than a single attraction with a ticket. Jo's Coffee and its familiar mural make a useful starting point, with the Continental Club nearby if you are continuing into an evening show.",
+      "address": "Jo's Coffee, 1300 South Congress Avenue, Austin, TX 78704",
+      "travel": "30–35 min walk or 10–15 min ride",
+      "mode": "ride",
+      "tags": [
+        "Shopping",
+        "Outdoors",
+        "Worth a short ride"
+      ],
+      "hours": "Best late morning or afternoon; individual shop hours vary",
+      "price": "Free to browse; purchases extra",
+      "bestFor": "Shopping, murals and a different neighborhood",
+      "tip": "A ride one way keeps the outing easy. If walking, crossing Congress Avenue Bridge adds lake and skyline views along the way.",
+      "links": [
+        {
+          "label": "Neighborhood guide",
+          "url": "https://www.austintexas.org/explore/entertainment-districts/south-congress/"
+        },
+        {
+          "label": "Shopping district",
+          "url": "https://visitsoco.com/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Visit Austin: South Congress",
+          "url": "https://www.austintexas.org/explore/entertainment-districts/south-congress/"
+        },
+        {
+          "label": "South Congress Public Improvement District",
+          "url": "https://visitsoco.com/"
+        },
+        {
+          "label": "Jo's Coffee: South Congress address",
+          "url": "https://www.joscoffee.com/south-congress-jos"
+        }
+      ]
+    },
+    {
+      "id": "driskill-bar",
+      "name": "The Driskill Bar",
+      "section": "food",
+      "category": "Cocktails",
+      "kicker": "An effortless first or last drink",
+      "description": "The hotel's classic bar makes a comfortable choice for a pre-dinner cocktail or a final drink close to home. Reimagined alongside the Grill, it serves cocktails, beer and small plates around its distinctive hexagonal bar. This is a separate venue from The Victorian, the hotel's Western-style pub.",
+      "address": "604 Brazos Street, Austin, TX 78701",
+      "travel": "Inside the hotel",
+      "mode": "walk",
+      "tags": [
+        "At the hotel",
+        "Classic cocktails",
+        "Small plates"
+      ],
+      "hours": "Saturday: 11:30am–1am",
+      "price": "Hotel-bar pricing; see current menu",
+      "bestFor": "Convenience and a classic hotel-bar setting",
+      "tip": "A natural pairing with dinner at the Driskill Grill, or an easy meeting point before the group heads out.",
+      "links": [
+        {
+          "label": "Bar & menu",
+          "url": "https://www.thedriskillgrill.com/the-driskill-bar"
+        }
+      ],
+      "sources": [
+        {
+          "label": "The Driskill Bar: menu, hours and setting",
+          "url": "https://www.thedriskillgrill.com/the-driskill-bar"
+        }
+      ]
+    },
+    {
+      "id": "the-victorian",
+      "name": "The Victorian",
+      "section": "food",
+      "category": "Cocktails",
+      "kicker": "A Western pub at your own hotel",
+      "description": "Old West saloon style meets an English-pub sensibility at this Driskill drinking spot, with cocktails, Texas-inspired pub food and a lively atmosphere. The mezzanine has billiards and card tables. It is a useful choice when everyone wants an enjoyable evening without adding another trip across town.",
+      "address": "604 Brazos Street, Austin, TX 78701",
+      "travel": "Inside the hotel",
+      "mode": "walk",
+      "tags": [
+        "At the hotel",
+        "Pub food",
+        "Billiards"
+      ],
+      "hours": "Saturday: noon–1am",
+      "price": "Cocktails and pub food à la carte",
+      "bestFor": "A relaxed hotel-based evening",
+      "tip": "The bar advertises live music Thursday–Saturday, 9pm–midnight. A named act for Nov 7 was not confirmed, so ask the concierge if music is your main reason for going.",
+      "links": [
+        {
+          "label": "Bar & menu",
+          "url": "https://thevictorianbar.com/"
+        },
+        {
+          "label": "Music calendar",
+          "url": "https://www.thevictorianbar.com/live-music"
+        }
+      ],
+      "sources": [
+        {
+          "label": "The Victorian: hours, menu and regular music schedule",
+          "url": "https://thevictorianbar.com/"
+        },
+        {
+          "label": "The Driskill: The Victorian's setting",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/aushd-the-driskill/dining"
+        }
+      ]
+    },
+    {
+      "id": "roosevelt-room",
+      "name": "The Roosevelt Room",
+      "section": "food",
+      "category": "Cocktails",
+      "kicker": "The deliberate cocktail outing",
+      "description": "A strong choice for a group that wants to sit down, order thoughtfully made drinks and let a knowledgeable staff guide the selection. The downstairs room offers table service and an extensive cocktail list. It works particularly well as a planned stop before dinner or a show, with a reservation to anchor the evening.",
+      "address": "307 West 5th Street, Unit B, Austin, TX 78701",
+      "travel": "8–12 min walk",
+      "mode": "walk",
+      "tags": [
+        "Reservations suggested",
+        "Seated service",
+        "Happy hour"
+      ],
+      "hours": "Saturday: 3pm–2am; happy hour 3–6pm",
+      "price": "Happy hour: select classic cocktails $12",
+      "bestFor": "Cocktail enthusiasts and a polished group outing",
+      "tip": "Walk-ins are welcome, but reservations are strongly recommended when you know your time. Read the booking terms when reserving.",
+      "links": [
+        {
+          "label": "Reservations",
+          "url": "https://www.therooseveltroomatx.com/reservations"
+        },
+        {
+          "label": "Bar information",
+          "url": "https://www.therooseveltroomatx.com/faq"
+        }
+      ],
+      "sources": [
+        {
+          "label": "The Roosevelt Room: hours, service and reservations",
+          "url": "https://www.therooseveltroomatx.com/faq"
+        },
+        {
+          "label": "The Roosevelt Room: happy-hour offering",
+          "url": "https://www.therooseveltroomatx.com/about/"
+        }
+      ]
+    },
+    {
+      "id": "small-victory",
+      "name": "Small Victory",
+      "section": "food",
+      "category": "Cocktails",
+      "kicker": "Classic cocktails almost next door",
+      "description": "A small, tucked-away room with blue banquettes, a discreet entrance and a serious interest in classic cocktails. Martinis, Manhattans and similar standards are the point here, with cheese and charcuterie for a light accompaniment. Its proximity to the hotel makes it especially appealing for an easy, intentional drink stop.",
+      "address": "108 East 7th Street, Austin, TX 78701",
+      "travel": "2–3 min walk",
+      "mode": "walk",
+      "tags": [
+        "Classic cocktails",
+        "Reservations",
+        "Very close"
+      ],
+      "hours": "Saturday: 5pm–1am",
+      "price": "Cocktails and small bites; see current menu",
+      "bestFor": "A martini and a small-room atmosphere",
+      "tip": "Look carefully for the entrance by the parking garage and use the reservation link if the group has a fixed time.",
+      "links": [
+        {
+          "label": "Bar & reservations",
+          "url": "https://smallvictory.bar/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Small Victory: hours, address, menu and reservations",
+          "url": "https://smallvictory.bar/"
+        }
+      ]
+    },
+    {
+      "id": "firehouse-lounge",
+      "name": "Firehouse Lounge",
+      "section": "food",
+      "category": "Cocktails",
+      "kicker": "Through the bookshelf across the street",
+      "description": "For a little novelty with almost no walking, cross Brazos and find the movable bookshelf in the Firehouse Hostel lobby. Behind it is a public cocktail lounge with local beers, zero-proof options and music on many nights. The playful entrance is part of the appeal; you do not need to be a hostel guest.",
+      "address": "605 Brazos Street, Austin, TX 78701",
+      "travel": "1–2 min walk",
+      "mode": "walk",
+      "tags": [
+        "21+",
+        "Very close",
+        "Hidden entrance"
+      ],
+      "hours": "Saturday: noon–2am; happy hour until 8pm",
+      "price": "Happy hour: $6 margaritas, mules and martinis",
+      "bestFor": "An easy speakeasy-style stop",
+      "tip": "Enter the hostel at 605 Brazos and look for the bookshelf handle. Bring ID; the lounge is 21+. Check its calendar for any particular live performance.",
+      "links": [
+        {
+          "label": "Lounge information",
+          "url": "https://www.firehousehostel.com/lounge"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Firehouse Lounge: access, hours and happy hour",
+          "url": "https://www.firehousehostel.com/lounge"
+        }
+      ]
+    },
+    {
+      "id": "casino-el-camino",
+      "name": "Casino El Camino",
+      "section": "food",
+      "category": "Dive bars",
+      "kicker": "Burgers, dark corners and a great jukebox",
+      "description": "A long-running rock-and-roll dive with a strong regulars tradition, a handpicked jukebox and substantial burgers. Its personality is a good fit for visitors seeking an unfussy local bar. The surrounding Sixth Street scene gets busier later, so an afternoon beer or early-evening visit is the most comfortable way to work it into this guide.",
+      "address": "517 East 6th Street, Austin, TX 78701",
+      "travel": "6–8 min walk",
+      "mode": "walk",
+      "tags": [
+        "Dive bar",
+        "Burgers",
+        "Jukebox"
+      ],
+      "hours": "Saturday: 11:30am–2am; happy hour until 7pm",
+      "price": "Casual bar and burger stop",
+      "bestFor": "A nearby dive with established local character",
+      "tip": "Go earlier for a more relaxed visit. This is still Sixth Street, and the crowd on a particular Saturday can vary.",
+      "links": [
+        {
+          "label": "Official information",
+          "url": "https://www.casinoelcamino.net/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Casino El Camino: hours and address",
+          "url": "https://www.casinoelcamino.net/"
+        },
+        {
+          "label": "Visit Austin: neighborhood dive and burgers",
+          "url": "https://www.austintexas.org/austin-insider-blog/blog/post/best-dive-bars-in-austin/"
+        },
+        {
+          "label": "Austin Monthly: Casino El Camino's regulars and jukebox",
+          "url": "https://www.austinmonthly.com/casino-el-camino-remains-the-punk-stalwart-of-sixth-street/"
+        }
+      ]
+    },
+    {
+      "id": "cloak-room",
+      "name": "The Cloak Room",
+      "section": "food",
+      "category": "Dive bars",
+      "kicker": "A small Capitol-area basement institution",
+      "description": "A dim, wood-paneled basement bar near the Capitol, known for its jukebox and connections to generations of political staff and regulars. This is the strongest nearby fit for an understated, old-Austin drink without a party-bar production. The room is small, so it is better for a compact group than a large gathering.",
+      "address": "1300 Colorado Street, Austin, TX 78701",
+      "travel": "15–18 min walk",
+      "mode": "walk",
+      "tags": [
+        "Dive bar",
+        "Jukebox",
+        "Small room"
+      ],
+      "hours": "Saturday listing: 8pm–2am",
+      "price": "Unfussy neighborhood-bar drinks",
+      "bestFor": "A low-key dive with a Capitol crowd",
+      "tip": "The entrance is down an outside stairwell. It opens late on Saturdays, so it will not work as a drink immediately after a daytime Capitol tour.",
+      "links": [
+        {
+          "label": "Visitor information",
+          "url": "https://www.austintexas.org/listings/the-cloak-room/2762/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Visit Austin: address and Saturday hours",
+          "url": "https://www.austintexas.org/listings/the-cloak-room/2762/"
+        },
+        {
+          "label": "Austin Monthly: setting and clientele",
+          "url": "https://www.austinmonthly.com/austin-dive-bar-cloak-room-isnt-just-for-politicos/"
+        }
+      ]
+    },
+    {
+      "id": "donns-depot",
+      "name": "Donn's Depot",
+      "section": "food",
+      "category": "Dive bars",
+      "kicker": "A little farther for old-Austin dancing",
+      "description": "A railway-depot bar with live music, two dance floors and a well-established mix of younger visitors and older regulars. It is a particularly appealing detour if the family wants a lived-in Austin institution with some movement to the evening. Think drinks and dancing; there is no full kitchen.",
+      "address": "1600 West 5th Street, Austin, TX 78703",
+      "travel": "8–12 min ride or 30–35 min walk",
+      "mode": "ride",
+      "tags": [
+        "Dive bar",
+        "21+",
+        "Dancing",
+        "Worth a short ride"
+      ],
+      "hours": "Saturday: 6pm–2am",
+      "price": "Saturday cover applies; amount varies by show",
+      "bestFor": "A mixed-age local crowd and dancing",
+      "tip": "Check the current music listing before making the ride. A specific Nov 7 act was not verified; this is a bar recommendation rather than a confirmed show listing.",
+      "links": [
+        {
+          "label": "Bar information",
+          "url": "https://donnsdepot.com/faqs/"
+        },
+        {
+          "label": "Music schedule",
+          "url": "https://donnsdepot.com/event-schedule/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Donn's Depot: hours, age policy, cover and dancing",
+          "url": "https://donnsdepot.com/faqs/"
+        },
+        {
+          "label": "Visit Austin: Donn's history and mixed-age crowd",
+          "url": "https://www.austintexas.org/austin-insider-blog/blog/post/west-austin-live-music-venues/"
+        }
+      ]
+    }
+  ],
+  "festival": [
+    {
+      "id": "oob-fallout-1800",
+      "venue": "Fallout Theater",
+      "room": "Theater",
+      "time": "6pm",
+      "lineup": "Booze & The Boys · Comedy Fusion · Touch Baseball with Oscar Montoya",
+      "format": "Improv, stand-up/improv, and character-driven improv",
+      "address": "616 Lavaca St, Austin, TX 78701",
+      "url": "https://www.crowdwork.com/e/fallout-booze-the-boys-cle-comedy-fusion-atx-touch-baseball-stl-with-oscar-montoya",
+      "price": "$22.35 incl. fees"
+    },
+    {
+      "id": "oob-fallout-2000",
+      "venue": "Fallout Theater",
+      "room": "Theater",
+      "time": "8pm",
+      "lineup": "Japanese Grandma Funeral · My Boy! · That Felt Good with Oscar Montoya",
+      "format": "Clown/storytelling, clown comedy, and puppet improv",
+      "address": "616 Lavaca St, Austin, TX 78701",
+      "url": "https://www.crowdwork.com/e/fallout-japanese-grandma-funeral-nyc-my-boy-nyc-that-felt-good-mpls-with-oscar-montoya",
+      "price": "$22.35 incl. fees"
+    },
+    {
+      "id": "oob-fallout-2200",
+      "venue": "Fallout Theater",
+      "room": "Theater",
+      "time": "10pm",
+      "lineup": "All Four Seasons · Gunk · Outta Gas!",
+      "format": "Sketch comedy and two improv groups",
+      "address": "616 Lavaca St, Austin, TX 78701",
+      "url": "https://www.crowdwork.com/e/fallout-all-four-seasons-chi-gunk-la-outta-gas-atx",
+      "price": "$22.35 incl. fees"
+    },
+    {
+      "id": "oob-coldtowne-main-1800",
+      "venue": "ColdTowne Theater",
+      "room": "Main Stage",
+      "time": "6pm",
+      "lineup": "Doomscroll · Simmer · Live. Laugh. MURDER",
+      "format": "Clown/sketch, character improv, and an interactive improvised murder mystery",
+      "address": "1700 E 2nd St, Austin, TX 78702",
+      "url": "https://www.crowdwork.com/e/coldtowne-doomscroll-nyc-simmer-atx-live-laugh-murder-dal",
+      "price": "$22.35 incl. fees"
+    },
+    {
+      "id": "oob-coldtowne-main-2000",
+      "venue": "ColdTowne Theater",
+      "room": "Main Stage",
+      "time": "8pm",
+      "lineup": "Avery & Sabrina · Cowboy Mama · Lemmingade with Jiavani",
+      "format": "Sketch, ensemble improv, and organic improv",
+      "address": "1700 E 2nd St, Austin, TX 78702",
+      "url": "https://www.crowdwork.com/e/coldtowne-avery-sabrina-dal-cowboy-mama-la-lemmingade-atx-w-jiavani",
+      "price": "$22.35 incl. fees"
+    },
+    {
+      "id": "oob-coldtowne-main-2200",
+      "venue": "ColdTowne Theater",
+      "room": "Main Stage",
+      "time": "10pm",
+      "lineup": "Wolf Town · Bad Magicians · Fuck This Month with Jiavani",
+      "format": "Improv; the final act uses the audience’s bad-month stories",
+      "address": "1700 E 2nd St, Austin, TX 78702",
+      "url": "https://www.crowdwork.com/e/coldtowne-wolf-town-chi-bad-magicians-bklyn-fuck-this-month-la-w-jiavani",
+      "price": "$22.35 incl. fees"
+    },
+    {
+      "id": "oob-coldtowne-cabaret-1800",
+      "venue": "ColdTowne Theater",
+      "room": "Cabaret",
+      "time": "6pm",
+      "lineup": "But of Mind · Wickey · Ivories Guy",
+      "format": "Twilight Zone-style improv, duo improv, and musical improv",
+      "address": "1700 E 2nd St, Austin, TX 78702",
+      "url": "https://www.crowdwork.com/e/cabaret-but-of-mind-jun-wickey-atx-ivories-guy-nyc",
+      "price": "$22.35 incl. fees"
+    },
+    {
+      "id": "oob-coldtowne-cabaret-2000",
+      "venue": "ColdTowne Theater",
+      "room": "Cabaret",
+      "time": "8pm",
+      "lineup": "Lizzie Kaniecki · Meet Cute · Kyle & Kendon: The Musical",
+      "format": "Comedy songs, a blind date inspiring improv, and an improvised musical",
+      "address": "1700 E 2nd St, Austin, TX 78702",
+      "url": "https://www.crowdwork.com/e/cabaret-lizzie-kaniecki-chi-meet-cute-dc-kyle-kendon-the-musical-okc",
+      "price": "$22.35 incl. fees"
+    },
+    {
+      "id": "oob-coldtowne-cabaret-2200",
+      "venue": "ColdTowne Theater",
+      "room": "Cabaret",
+      "time": "10pm",
+      "lineup": "Pillow Talk · Y’Honor · Ivories Guy",
+      "format": "Improv, courtroom improv, and musical improv",
+      "address": "1700 E 2nd St, Austin, TX 78702",
+      "url": "https://www.crowdwork.com/e/cabaret-pillow-talk-la-y-honor-atx-ivories-guy-nyc",
+      "price": "$22.35 incl. fees"
+    },
+    {
+      "id": "oob-dougherty-1800",
+      "venue": "Dougherty Arts Center",
+      "room": "Theater",
+      "time": "6pm",
+      "lineup": "Y’All We Asian · Gooses · The Knuckleball Now!",
+      "format": "Three improv groups",
+      "address": "1110 Barton Springs Rd, Austin, TX 78704",
+      "url": "https://www.crowdwork.com/e/dougherty-y-all-we-asian-atx-gooses-nyc-the-knuckleball-now-atx",
+      "price": "$22.35 incl. fees"
+    },
+    {
+      "id": "oob-dougherty-2000",
+      "venue": "Dougherty Arts Center",
+      "room": "Theater",
+      "time": "8pm",
+      "lineup": "Drunk Theatre · Big Worm · Stupid Fxcking Rich People with Zeke Nicholson",
+      "format": "Improv with adult material; Drunk Theatre includes a drinking premise",
+      "address": "1110 Barton Springs Rd, Austin, TX 78704",
+      "url": "https://www.crowdwork.com/e/dougherty-drunk-theatre-la-big-worm-bal-stupid-fxcking-rich-people-atx-w-zeke-nicholson",
+      "price": "$22.35 incl. fees"
+    },
+    {
+      "id": "oob-dougherty-2200",
+      "venue": "Dougherty Arts Center",
+      "room": "Theater",
+      "time": "10pm",
+      "lineup": "Grief Circle · Shoes Off! · All Night All Night All Night with Zeke Nicholson",
+      "format": "Improv",
+      "address": "1110 Barton Springs Rd, Austin, TX 78704",
+      "url": "https://www.crowdwork.com/e/dougherty-saturday-10pm",
+      "price": "$22.35 incl. fees"
+    }
+  ],
+  "food": [
+    {
+      "id": "driskill-grill",
+      "name": "The Driskill Grill",
+      "section": "food",
+      "category": "Steakhouses",
+      "kicker": "A special dinner, right downstairs",
+      "description": "A steakhouse evening without leaving the hotel: the historic dining room reopened in 2026 with dry-aged steaks, classic cocktails and substantial butcher’s cuts. Choose this for a relaxed special dinner when convenience matters as much as the food. The 10-layer chocolate cake makes an easy finish.",
+      "address": "117 E 7th St, Austin, TX 78701",
+      "travel": "Inside the Driskill",
+      "mode": "walk",
+      "tags": [
+        "Dinner",
+        "Reservations",
+        "Dessert",
+        "At the hotel"
+      ],
+      "hours": "Saturday dinner: 4:30–10:30 pm",
+      "price": "8 oz tenderloin $72 · 16 oz Akaushi Wagyu ribeye $120 · sides extra",
+      "bestFor": "A celebratory steak dinner with no travel",
+      "tip": "Reserve a table. Dinner attire excludes shorts, flip-flops and slides.",
+      "details": [
+        "Butcher’s cuts include bavette at $43 and tri-tip at $46, offering less expensive beef choices than the large steaks.",
+        "The 10-layer chocolate cake is $19; key lime pie is $15."
+      ],
+      "links": [
+        {
+          "label": "Menu & reservations",
+          "url": "https://www.thedriskillgrill.com/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official restaurant, hours and dress code",
+          "url": "https://www.thedriskillgrill.com/"
+        },
+        {
+          "label": "Official dinner menu",
+          "url": "https://cdn.prod.website-files.com/69f108d3160f38934c87f93b/6ab13eae14a29ebe5dd8dfb1_DriskillGrill_Dinner_090326.pdf"
+        }
+      ]
+    },
+    {
+      "id": "deans-steakhouse",
+      "name": "Dean’s Italian Steakhouse",
+      "section": "food",
+      "category": "Steakhouses",
+      "kicker": "Steak for some, pasta for others",
+      "description": "An Italian steakhouse close enough for an easy walk, with steaks alongside pasta and seafood. It works particularly well when some diners want a serious cut of beef and others would prefer a different main. Plan this as a sit-down dinner and reserve ahead for a Saturday table.",
+      "address": "110 E 2nd St, Austin, TX 78701",
+      "travel": "8–10 min walk",
+      "mode": "walk",
+      "tags": [
+        "Dinner",
+        "Reservations",
+        "Pasta"
+      ],
+      "hours": "Saturday dinner: 5–11 pm",
+      "price": "10 oz flat iron $45 · 8 oz filet $66 · 22 oz dry-aged ribeye $110",
+      "bestFor": "A steakhouse with good choices beyond beef",
+      "tip": "A useful dinner pairing with nearby Congress Avenue music venues; allow time for a full restaurant meal.",
+      "links": [
+        {
+          "label": "Menu",
+          "url": "https://www.deanssteakhouseaustin.com/menus"
+        },
+        {
+          "label": "Reservations",
+          "url": "https://www.deanssteakhouseaustin.com/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official location and hours",
+          "url": "https://www.deanssteakhouseaustin.com/"
+        },
+        {
+          "label": "Official menus",
+          "url": "https://www.deanssteakhouseaustin.com/menus"
+        }
+      ]
+    },
+    {
+      "id": "coopers-bbq",
+      "name": "Cooper’s Old Time Pit Bar-B-Que",
+      "section": "food",
+      "category": "Barbecue",
+      "kicker": "The easy downtown barbecue stop",
+      "description": "The simplest downtown choice for a barbecue lunch or dinner, just down Congress Avenue from the hotel. Order meat and sides in a casual setting, then keep the rest of the day flexible. It is a particularly convenient option before nearby music or a walk along the lake.",
+      "address": "217 Congress Ave, Austin, TX 78701",
+      "travel": "8–10 min walk",
+      "mode": "walk",
+      "tags": [
+        "Lunch",
+        "Dinner",
+        "Casual"
+      ],
+      "hours": "Saturday: 11 am–10 pm",
+      "price": "Meat and sides priced separately; check current counter prices",
+      "bestFor": "Barbecue without arranging a ride",
+      "tip": "For a fixed-time show, leave a little room in the plan for ordering and any queue.",
+      "details": [
+        "The menu includes several beef options, turkey and traditional sides. Current prices were not reliably posted on the official menu when checked."
+      ],
+      "links": [
+        {
+          "label": "Menu & hours",
+          "url": "https://coopersbbqaustin.com/menu/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official Austin menu and hours",
+          "url": "https://coopersbbqaustin.com/menu/"
+        },
+        {
+          "label": "Official Austin location",
+          "url": "https://coopersbbqaustin.com/"
+        }
+      ]
+    },
+    {
+      "id": "terry-blacks-bbq",
+      "name": "Terry Black’s Barbecue",
+      "section": "food",
+      "category": "Barbecue",
+      "kicker": "Brisket and beef ribs worth a detour",
+      "description": "Make this the barbecue outing if brisket and a substantial beef rib are the main event. The location south of the river also pairs well with a Lady Bird Lake walk. Service is first come, first served, so leave room for a line and avoid a tightly timed show immediately afterward.",
+      "address": "1003 Barton Springs Rd, Austin, TX 78704",
+      "travel": "10–15 min ride · 30–40 min walk",
+      "mode": "ride",
+      "tags": [
+        "Lunch",
+        "Dinner",
+        "Casual",
+        "Beef ribs"
+      ],
+      "hours": "Saturday: 10:30 am–10 pm",
+      "price": "Brisket $39.99/lb · beef ribs $40.99/lb · individual sides $4.50",
+      "bestFor": "A dedicated barbecue meal",
+      "tip": "Aim for an early lunch and keep the timing flexible. Ordinary dining is first come, first served.",
+      "details": [
+        "Half a pound of brisket and two individual sides comes to about $29 before tax and drinks; this is a calculation, not a set combo.",
+        "Banana, peach and chocolate pudding are $4.75 each."
+      ],
+      "links": [
+        {
+          "label": "Menu & hours",
+          "url": "https://terryblacksbbq.com/austin"
+        },
+        {
+          "label": "How it works",
+          "url": "https://terryblacksbbq.com/faq"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official Austin location and menu",
+          "url": "https://terryblacksbbq.com/austin"
+        },
+        {
+          "label": "Official dining FAQ",
+          "url": "https://terryblacksbbq.com/faq"
+        }
+      ]
+    },
+    {
+      "id": "roaring-fork",
+      "name": "Roaring Fork",
+      "section": "food",
+      "category": "Austin favorites",
+      "kicker": "An easy dinner for a mixed group",
+      "description": "A very short walk brings you to a broad Southwestern menu with steaks, a substantial burger, fish and chicken. This is an easy compromise for a group with different appetites, especially when a full steakhouse feels too formal. An early dinner also leaves time for a Saturday show.",
+      "address": "701 Congress Ave, Austin, TX 78701",
+      "travel": "3–5 min walk",
+      "mode": "walk",
+      "tags": [
+        "Dinner",
+        "Reservations",
+        "Happy hour"
+      ],
+      "hours": "Saturday dinner: 4–10 pm · happy hour 4–6 pm in the bar and lounge",
+      "price": "Burger $22 · trout $27 · salmon $29 · 8 oz filet $50",
+      "bestFor": "A convenient dinner with something for everyone",
+      "tip": "There is no Saturday lunch service. Happy-hour pricing applies in the bar and lounge only.",
+      "details": [
+        "The 22 oz ribeye is listed at $64. The burger is $17 during happy hour."
+      ],
+      "links": [
+        {
+          "label": "Menu & reservations",
+          "url": "https://www.roaringfork.com/downtown-austin/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official downtown menu, hours and reservations",
+          "url": "https://www.roaringfork.com/downtown-austin/"
+        }
+      ]
+    },
+    {
+      "id": "moonshine",
+      "name": "Moonshine Patio Bar & Grill",
+      "section": "food",
+      "category": "Austin favorites",
+      "kicker": "Comfort food with an Austin feel",
+      "description": "A useful all-rounder for Southern comfort food, with a Saturday brunch menu followed by regular lunch and dinner choices. Chicken-fried steak, steak frites and salmon give the table a good range, while hearty desserts suit anyone saving room for something sweet. The Red River location is an easy walk.",
+      "address": "303 Red River St, Austin, TX 78701",
+      "travel": "9–12 min walk",
+      "mode": "walk",
+      "tags": [
+        "Brunch",
+        "Lunch",
+        "Dinner",
+        "Dessert",
+        "Reservations"
+      ],
+      "hours": "Saturday: 10 am–10 pm · à la carte brunch 10 am–2 pm",
+      "price": "Regular menu: chicken-fried steak $25 · salmon $28 · hanger steak frites $36",
+      "bestFor": "Comfort food, brunch or a casual dinner",
+      "tip": "Reservations are available through the restaurant’s website. The prices here are from the regular menu, not the brunch menu.",
+      "details": [
+        "Bread pudding, banana cream pudding and peanut butter mousse pie are listed at $12 each."
+      ],
+      "links": [
+        {
+          "label": "Menus",
+          "url": "https://www.moonshinegrill.com/menus"
+        },
+        {
+          "label": "Reservations",
+          "url": "https://www.moonshinegrill.com/reservations"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official menus and hours",
+          "url": "https://www.moonshinegrill.com/menus"
+        },
+        {
+          "label": "Official current dinner menu",
+          "url": "https://www.moonshinegrill.com/s/MoonshineDT_Dinner_10-21-2026.pdf"
+        },
+        {
+          "label": "Official reservations",
+          "url": "https://www.moonshinegrill.com/reservations"
+        }
+      ]
+    },
+    {
+      "id": "la-condesa",
+      "name": "La Condesa",
+      "section": "food",
+      "category": "Austin favorites",
+      "kicker": "Modern Mexican on West Second",
+      "description": "A lively modern Mexican option near the Second Street shops, convenient for combining a meal with the library and downtown exploring. Saturday brunch offers both substantial beef dishes and smaller vegetable or salad choices. Dinner is another good occasion to make a reservation and settle in over a longer meal.",
+      "address": "400A W 2nd St, Austin, TX 78701",
+      "travel": "14–18 min walk",
+      "mode": "walk",
+      "tags": [
+        "Brunch",
+        "Lunch",
+        "Dinner",
+        "Mexican",
+        "Reservations"
+      ],
+      "hours": "Saturday brunch: 11 am–2 pm · dinner: 5–10 pm",
+      "price": "Brunch: short-rib hash $22 · beef-cheek barbacoa $32 · chicken salad $19",
+      "bestFor": "A Mexican brunch or a more leisurely dinner",
+      "tip": "There is a break between brunch and dinner. These sample prices are specifically from the brunch menu.",
+      "details": [
+        "A cauliflower tostada is listed at $18 on the brunch menu."
+      ],
+      "links": [
+        {
+          "label": "Menus",
+          "url": "https://lacondesa.com/menus"
+        },
+        {
+          "label": "Reservations",
+          "url": "https://lacondesa.com/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official restaurant and hours",
+          "url": "https://lacondesa.com/"
+        },
+        {
+          "label": "Official brunch menu",
+          "url": "https://lacondesa.com/menus"
+        }
+      ]
+    },
+    {
+      "id": "salty-sow",
+      "name": "Salty Sow",
+      "section": "food",
+      "category": "Austin favorites",
+      "kicker": "A neighborhood dinner beyond downtown",
+      "description": "Take a short ride to Manor Road for a dinner built around satisfying plates and a strong bar menu. Duck-fat fries, crispy chicken thighs and ribeye steak frites make this an appealing change of scene after a downtown day. It is best treated as a destination dinner rather than a quick walking stop.",
+      "address": "1917 Manor Rd, Austin, TX 78722",
+      "travel": "10–15 min ride",
+      "mode": "ride",
+      "tags": [
+        "Dinner",
+        "Happy hour",
+        "Reservations"
+      ],
+      "hours": "Saturday: 4–10 pm · happy hour: 4–6 pm",
+      "price": "Check the current menu for dish and happy-hour prices",
+      "bestFor": "A dinner outing in a different neighborhood",
+      "tip": "Reserve for Saturday and allow for the ride if you have a show afterward.",
+      "links": [
+        {
+          "label": "Menu",
+          "url": "https://www.saltysow.com/menu"
+        },
+        {
+          "label": "Hours & reservations",
+          "url": "https://www.saltysow.com/contact"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official menu",
+          "url": "https://www.saltysow.com/menu"
+        },
+        {
+          "label": "Official hours and location",
+          "url": "https://www.saltysow.com/contact"
+        }
+      ]
+    },
+    {
+      "id": "local-foods",
+      "name": "Local Foods",
+      "section": "food",
+      "category": "Lighter meals",
+      "kicker": "Salads, bowls and excellent sandwiches",
+      "description": "A particularly useful lunch stop around Second Street, with salads and grain bowls for lighter appetites and substantial sandwiches for everyone else. Sandwiches come with two market sides or a cup of soup. Pair it with the Central Library, Seaholm or the lake trail for an easy afternoon on foot.",
+      "address": "454 W 2nd St, Austin, TX 78701",
+      "travel": "15–18 min walk",
+      "mode": "walk",
+      "tags": [
+        "Brunch",
+        "Lunch",
+        "Dinner",
+        "Salads",
+        "Vegetarian options"
+      ],
+      "hours": "Saturday: 9 am–9 pm · all-day menu from 10:45 am · brunch until 3 pm",
+      "price": "Green salad $15.50 · chicken farro bowl $19.50 · crunchy chicken sandwich $18",
+      "bestFor": "A fresh lunch that still satisfies a bigger appetite",
+      "tip": "The $22.50 Borracho Beef sandwich is a useful choice for a beef lover joining a lighter lunch.",
+      "details": [
+        "The salmon poke bowl is listed at $21. Sandwich prices include two market sides or a cup of soup."
+      ],
+      "links": [
+        {
+          "label": "Menu",
+          "url": "https://www.localfoodstexas.com/2nd-Street-District-ATX-menu/"
+        },
+        {
+          "label": "Hours & location",
+          "url": "https://www.localfoodstexas.com/location/local-foods-2nd-street-district-atx/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official Second Street location, hours and menu",
+          "url": "https://www.localfoodstexas.com/location/local-foods-2nd-street-district-atx/"
+        },
+        {
+          "label": "Official Second Street menu",
+          "url": "https://www.localfoodstexas.com/2nd-Street-District-ATX-menu/"
+        }
+      ]
+    },
+    {
+      "id": "flower-child",
+      "name": "Flower Child",
+      "section": "food",
+      "category": "Lighter meals",
+      "kicker": "A straightforward, vegetable-forward meal",
+      "description": "This convenient downtown branch of a national chain is a good choice when you want vegetables, a salad or a protein plate without a long restaurant meal. Salmon, steak and tofu plates make it easy for different appetites to share a stop. The location pairs naturally with the library and Second Street.",
+      "address": "500 W 2nd St, Suite 133, Austin, TX 78701",
+      "travel": "16–20 min walk",
+      "mode": "walk",
+      "tags": [
+        "Lunch",
+        "Dinner",
+        "Salads",
+        "Vegetarian options",
+        "Casual"
+      ],
+      "hours": "Saturday: 11 am–9 pm",
+      "price": "Protein + 2 sides: salmon $17.45 · steak $17.25 · tofu $13.75",
+      "bestFor": "A lighter meal between larger dinners",
+      "tip": "A protein plate with two vegetable sides is a useful way to keep the meal lighter and still substantial.",
+      "details": [
+        "The vegetable salad is $11.25, with chicken available for an additional $6.25."
+      ],
+      "links": [
+        {
+          "label": "Menu & hours",
+          "url": "https://www.iamaflowerchild.com/locations/austin-tx-downtown/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official downtown location and menu",
+          "url": "https://www.iamaflowerchild.com/locations/austin-tx-downtown/"
+        }
+      ]
+    },
+    {
+      "id": "1886-cafe",
+      "name": "1886 Café & Bakery",
+      "section": "food",
+      "category": "Lighter meals",
+      "kicker": "Lunch and cake without leaving the hotel",
+      "description": "The hotel’s daytime café is an easy fallback when everyone wants a different pace. Greens and grain salads offer lighter lunches, while a burger or steak and eggs suits a bigger appetite. The bakery also makes a convenient afternoon treat, provided you get there before its early closing time.",
+      "address": "604 Brazos St, Austin, TX 78701",
+      "travel": "Inside the Driskill",
+      "mode": "walk",
+      "tags": [
+        "Breakfast",
+        "Lunch",
+        "Dessert",
+        "At the hotel"
+      ],
+      "hours": "Saturday: 6:30 am–3 pm",
+      "price": "Green salad $14 · grain salad $16 · burger $26 · chocolate cake $11",
+      "bestFor": "An easy lunch or daytime dessert at the hotel",
+      "tip": "Plan this for lunch, coffee or an afternoon cake stop; the café closes at 3 pm.",
+      "details": [
+        "Grilled chicken can be added to a salad for $6.",
+        "Lemon tart is $11, hummingbird cake $9 and a chocolate-pecan croissant $7."
+      ],
+      "links": [
+        {
+          "label": "Café details",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/aushd-the-driskill/dining"
+        },
+        {
+          "label": "Menu (PDF)",
+          "url": "https://www.hyatt.com/content/dam/hotel/propertysites/assets/unbound/aushd/documents/en_us/dining/1886-bakery/1886_AllDay_Menu_4_2026.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official hotel dining and hours",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/aushd-the-driskill/dining"
+        },
+        {
+          "label": "Official April 2026 café menu",
+          "url": "https://www.hyatt.com/content/dam/hotel/propertysites/assets/unbound/aushd/documents/en_us/dining/1886-bakery/1886_AllDay_Menu_4_2026.pdf"
+        }
+      ]
+    },
+    {
+      "id": "voodoo-doughnut",
+      "name": "Voodoo Doughnut",
+      "section": "food",
+      "category": "Dessert",
+      "kicker": "The closest late-night sweet stop",
+      "description": "A few minutes from the hotel, this colorful doughnut shop works for a quick treat or something to take back to the room. Expect playful toppings and oversized choices alongside simpler doughnuts. Its late hours are useful after a show, although Sixth Street itself becomes much busier later in the evening.",
+      "address": "212 E 6th St, Austin, TX 78701",
+      "travel": "2–3 min walk",
+      "mode": "walk",
+      "tags": [
+        "Dessert",
+        "Late night",
+        "Takeaway"
+      ],
+      "hours": "Saturday: 6 am–3 am Sunday",
+      "price": "Plain glazed $1.75 · Portland Cream $4.25 · Bacon Maple Bar or Voodoo Doll $5",
+      "bestFor": "Dessert very close to the hotel after a show",
+      "tip": "The shop’s posted closing time is 3 am; online ordering can stop earlier.",
+      "links": [
+        {
+          "label": "Austin location",
+          "url": "https://voodoodoughnut.com/locations/"
+        },
+        {
+          "label": "Menu",
+          "url": "https://toast.app/r/voodoo-doughnut-austin/order"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official Austin location and hours",
+          "url": "https://voodoodoughnut.com/locations/"
+        },
+        {
+          "label": "Official linked Austin ordering menu",
+          "url": "https://toast.app/r/voodoo-doughnut-austin/order"
+        }
+      ]
+    },
+    {
+      "id": "amys-ice-creams",
+      "name": "Amy’s Ice Creams — West Sixth",
+      "section": "food",
+      "category": "Dessert",
+      "kicker": "An Austin ice-cream classic",
+      "description": "Choose Amy’s when the dessert stop should feel like part of Austin rather than just the nearest sweet shop. Mexican Vanilla is the signature starting point, with mix-ins for anyone who wants something more elaborate. The West Sixth location is a longer but manageable downtown walk, or an easy stop during western downtown exploring.",
+      "address": "1012 W 6th St, Austin, TX 78703",
+      "travel": "20–25 min walk",
+      "mode": "walk",
+      "tags": [
+        "Dessert",
+        "Ice cream"
+      ],
+      "hours": "Saturday: 11:30 am–11 pm",
+      "price": "Milkshake $7.50 on the posted pickup menu; scoop prices vary",
+      "bestFor": "A local ice-cream stop while exploring west of Congress",
+      "tip": "Use the West Sixth address here; Amy’s has several Austin locations.",
+      "links": [
+        {
+          "label": "Locations & hours",
+          "url": "https://amysicecreams.com/locations/"
+        },
+        {
+          "label": "West Sixth menu",
+          "url": "https://order.toasttab.com/online/amys-ice-creams-6th-street"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official West Sixth location and hours",
+          "url": "https://amysicecreams.com/locations/"
+        },
+        {
+          "label": "Official linked West Sixth pickup menu",
+          "url": "https://order.toasttab.com/online/amys-ice-creams-6th-street"
+        }
+      ]
+    },
+    {
+      "id": "baked-bear",
+      "name": "The Baked Bear",
+      "section": "food",
+      "category": "Dessert",
+      "kicker": "An indulgent finish near Seaholm",
+      "description": "Build an ice-cream sandwich with cookies or brownies at this Seaholm dessert shop. It is a particularly convenient reward after the Central Library or a lake walk, and the later opening hours also suit an evening stop. The portions make this a more substantial dessert than a quick bite of something sweet.",
+      "address": "211 Walter Seaholm Dr, Suite LR150, Austin, TX 78701",
+      "travel": "20–25 min walk",
+      "mode": "walk",
+      "tags": [
+        "Dessert",
+        "Ice cream",
+        "Cookies"
+      ],
+      "hours": "Saturday: noon–11 pm",
+      "price": "Custom ice-cream sandwich $10.50 on the posted pickup menu",
+      "bestFor": "Dessert after the library, Seaholm or a lake walk",
+      "tip": "This pairs naturally with western downtown plans; it is farther from the hotel than Voodoo or 1886.",
+      "links": [
+        {
+          "label": "Menu & hours",
+          "url": "https://www.thebakedbear.com/locations/austin/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official Austin location and hours",
+          "url": "https://www.thebakedbear.com/locations/austin/"
+        },
+        {
+          "label": "Official linked Austin pickup menu",
+          "url": "https://order.online/store/TheBakedBear-538928?hideModal=true&pickup=true"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+.openai/
+__pycache__/
+*.pyc
+qa/
+*.zip
+dist/
