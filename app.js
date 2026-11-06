@@ -144,6 +144,17 @@
   $('#open-saved').addEventListener('click', () => { renderSaved(); savedDialog.showModal(); });
   $('#close-saved').addEventListener('click', () => savedDialog.close());
   savedDialog.addEventListener('click', event => { if (event.target === savedDialog) { const r = savedDialog.getBoundingClientRect(); if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) savedDialog.close(); } });
+  const mapPreference = $('#map-preference');
+  const mapPreferenceKey = 'austin-driskill-guide-map-preference';
+  try {
+    const preferredMap = localStorage.getItem(mapPreferenceKey);
+    if (preferredMap === 'apple' || preferredMap === 'google') mapPreference.value = preferredMap;
+  } catch (_) {}
+  document.documentElement.dataset.mapPreference = mapPreference.value;
+  mapPreference.addEventListener('change', () => {
+    document.documentElement.dataset.mapPreference = mapPreference.value;
+    try { localStorage.setItem(mapPreferenceKey, mapPreference.value); } catch (_) {}
+  });
   $('#theme-toggle').addEventListener('click', () => {
     const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
     document.documentElement.dataset.theme = theme;
