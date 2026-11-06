@@ -16,11 +16,34 @@ def e(value):
 def icon(name):
     return f'<svg aria-hidden="true"><use href="#i-{name}"></use></svg>'
 
+CATEGORY_ICONS = {
+    'all': 'grid',
+    'History': 'landmark',
+    'Museums': 'gallery',
+    'Outdoors': 'tree',
+    'Neighborhoods': 'neighborhood',
+    'Lunch': 'sun',
+    'Dinner': 'moon',
+    'Steakhouses': 'steak',
+    'Barbecue': 'flame',
+    'Austin favorites': 'star-plate',
+    'Lighter meals': 'salad',
+    'Dessert': 'ice-cream',
+    'Cocktails': 'cocktail',
+    'Dive bars': 'beer',
+    'Live music': 'music',
+    'Improv': 'conversation',
+    'Comedy & variety': 'comedy',
+}
+
+def category_icon(category):
+    return icon(CATEGORY_ICONS[category])
+
 def maps(address, mode='walk', from_hotel=True):
-    params = {'destination': address, 'mode': 'walking' if mode == 'walk' else 'driving'}
+    params = {'api': '1', 'destination': address, 'travelmode': 'walking' if mode == 'walk' else 'driving'}
     if from_hotel:
-        params['source'] = BASE
-    return 'https://maps.apple.com/directions?' + urlencode(params)
+        params['origin'] = BASE
+    return 'https://www.google.com/maps/dir/?' + urlencode(params)
 
 def link(label, url, cls='', icon_name=None):
     return f'<a class="{e(cls)}" href="{e(url)}" target="_blank" rel="noopener noreferrer">{icon(icon_name) if icon_name else ""}{e(label)}</a>'
@@ -72,11 +95,11 @@ def card_html(c):
     primary = c['links'][0]
     extra_links = ''.join(link(s['label'],s['url'],'card-action') for s in c['links'][1:])
     return f'''<article id="{e(c['id'])}" class="place-card" data-name="{e(c['name'])}" data-category="{e(c['category'])}" data-mode="{e(c['mode'])}" data-travel="{e(c['travel'])}" data-tags="{e('|'.join(c.get('tags',[])))}" data-search="{e(searchable)}">
-      <div class="card-top"><div><div class="card-category eyebrow">{e(c['category'])}</div><h3>{e(c['name'])}</h3></div><button type="button" class="save-place js-only" data-save="{e(c['id'])}" aria-pressed="false" aria-label="Save {e(c['name'])} to your picks">{icon('bookmark')}</button></div>
+      <div class="card-top"><div><div class="card-category eyebrow">{category_icon(c['category'])}<span>{e(c['category'])}</span></div><h3>{e(c['name'])}</h3></div><button type="button" class="save-place js-only" data-save="{e(c['id'])}" aria-pressed="false" aria-label="Save {e(c['name'])} to your picks">{icon('bookmark')}</button></div>
       <p class="card-kicker">{e(c.get('kicker',''))}</p>
       <div class="card-meta"><span class="badge">{icon(travel_icon)}{e(c['travel'])}</span>{time_badge}{tags_html}</div>
       <p class="card-description">{e(c['description'])}</p>
-      <div class="card-actions">{link('Apple Maps',maps(c['address'],c['mode']),'card-action','pin')}{link(primary['label'],primary['url'],'card-action primary','arrow')}</div>
+      <div class="card-actions">{link('Google Maps',maps(c['address'],c['mode']),'card-action','pin')}{link(primary['label'],primary['url'],'card-action primary','arrow')}</div>
       <details class="card-details"><summary><span>{'Show details & ticket advice' if c['section']=='entertainment' else 'Hours, prices & local tips'}</span>{icon('chevron')}</summary><div class="details-body"><dl class="facts">{fact_html}</dl><div class="local-tip"><strong>Good to know</strong>{e(c.get('tip',''))}</div>{details}{('<div class="card-actions">'+extra_links+'</div>') if extra_links else ''}<div class="source-links">Sources: {source_html}</div></div></details>
     </article>'''
 
@@ -100,7 +123,7 @@ def festival_html():
 def section_html(name):
     eyebrow,title,intro,filters = section_info[name]
     items = sorted_cards(name)
-    chips = ''.join(f'<button type="button" class="chip" data-filter="{e(x)}" aria-pressed="{str(x=="all").lower()}">{e("All choices" if x=="all" else x)}</button>' for x in filters)
+    chips = ''.join(f'<button type="button" class="chip" data-filter="{e(x)}" aria-pressed="{str(x=="all").lower()}">{category_icon(x)}<span>{e("All choices" if x=="all" else x)}</span></button>' for x in filters)
     before = ''
     after = ''
     if name == 'entertainment':
@@ -127,6 +150,21 @@ icons = '''<svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;widt
 <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v.1"/></symbol>
 <symbol id="i-ticket" viewBox="0 0 24 24"><path d="M3 5h18v5a2 2 0 0 0 0 4v5H3v-5a2 2 0 0 0 0-4V5Z"/><path d="M15 5v3m0 3v2m0 3v3"/></symbol>
 <symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 5h4m-3 14h2"/></symbol>
+<symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></symbol>
+<symbol id="i-landmark" viewBox="0 0 24 24"><path d="m3 8 9-5 9 5H3Zm1 12h16M6 11v6m6-6v6m6-6v6M3 20v1h18v-1"/></symbol>
+<symbol id="i-gallery" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="m5 17 5-5 4 4 3-3 2 2"/><circle cx="16.5" cy="8.5" r="1.5"/></symbol>
+<symbol id="i-tree" viewBox="0 0 24 24"><path d="m12 2-5 7h3l-6 8h7v5h2v-5h7l-6-8h3l-5-7Z"/></symbol>
+<symbol id="i-neighborhood" viewBox="0 0 24 24"><path d="M3 21V9l5-5 5 5v12M13 21V3h8v18M1 21h22M6 21v-6h4v6m6-14h2m-2 4h2m-2 4h2M7 10h2"/></symbol>
+<symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.5 14.4A9 9 0 0 1 9.6 3.5a9 9 0 1 0 10.9 10.9Z"/></symbol>
+<symbol id="i-steak" viewBox="0 0 24 24"><path d="M20.6 8.3c1.7 4.5-1.2 10.5-5.2 11.9-3.3 1.2-4.7-1.7-7.3-2-3.3-.3-5.7-1.5-5.3-5 .3-2.8 3.2-3.6 4.8-6.3 1.6-2.6 3.5-4.3 6.4-3.8 3 .5 5.5 2.4 6.6 5.2Z"/><ellipse cx="14.5" cy="8" rx="2" ry="1.5" transform="rotate(25 14.5 8)"/><path d="m6 13 3 2m1-5 2 4m3-1 2 2"/></symbol>
+<symbol id="i-flame" viewBox="0 0 24 24"><path d="M13 2c1 6-5 7-3 11 1-1 2-3 2-4 5 2 8 5 6 9-2 4-10 5-13 0C2 13 8 8 8 5c2 1 3 3 3 3s2-2 2-6Z"/></symbol>
+<symbol id="i-star-plate" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="m12 6 1.8 3.6 4 .6-2.9 2.8.7 4-3.6-1.9L8.4 17l.7-4-2.9-2.8 4-.6L12 6Z"/></symbol>
+<symbol id="i-salad" viewBox="0 0 24 24"><path d="M3 12h18a9 9 0 0 1-18 0Zm5 8v1h8v-1M12 12c-5 0-7-3-7-7 5 0 7 2 7 7Zm0 0c0-6 2-9 7-10 1 6-2 10-7 10Zm0 0 4-5"/></symbol>
+<symbol id="i-ice-cream" viewBox="0 0 24 24"><path d="M6 9a6 6 0 0 1 12 0M6 9a2 2 0 0 0 0 4h12a2 2 0 0 0 0-4H6Zm1 4 5 9 5-9M9 16h6m-4 3h2"/></symbol>
+<symbol id="i-cocktail" viewBox="0 0 24 24"><path d="M3 4h18l-9 10-9-10Zm9 10v7m-5 0h10M6 7h12m-3 0 3-6"/></symbol>
+<symbol id="i-beer" viewBox="0 0 24 24"><path d="M4 8h12v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V8Zm12 1h3a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-3M8 11v6m4-6v6M4 8a3 3 0 0 1-1-5 3.5 3.5 0 0 1 5-1 3.5 3.5 0 0 1 6 .5A3 3 0 0 1 16 8"/></symbol>
+<symbol id="i-conversation" viewBox="0 0 24 24"><path d="M14 3H3v9h3v4l4-4h4V3Zm3 5h4v10h-3v4l-4-4h-4v-3M6 7h5"/></symbol>
+<symbol id="i-comedy" viewBox="0 0 24 24"><path d="M3 4c6 3 12 3 18 0v7c0 5-4 9-9 11-5-2-9-6-9-11V4Z"/><path d="m7 10 1-1 1 1m6 0 1-1 1 1M8 14c1 4 7 4 8 0"/></symbol>
 </defs></svg>'''
 
 hotel_art = '''<svg class="base-illustration" viewBox="0 0 300 105" aria-hidden="true"><path d="M10 95h280M35 95V45h60v50m-45-50V28h30v17m-25-17V17h20v11M95 95V52h110v43m0 0V45h60v50m-45-50V28h30v17m-25-17V17h20v11M110 52V38h80v14m-70-14 30-24 30 24M140 95V74a10 10 0 0 1 20 0v21M49 62h7v13h-7V62Zm25 0h7v13h-7V62Zm145 0h7v13h-7V62Zm25 0h7v13h-7V62ZM111 65h8v12h-8V65Zm70 0h8v12h-8V65Z"/><path d="M150 14V4m0 0 13 4-13 4M120 88h-12m84 0h-12M20 95V82m260 13V82"/></svg>'''
@@ -147,7 +185,7 @@ html = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#f8f4ec"><meta name="description" content="An Austin pocket guide from The Driskill: walkable sights, steak and barbecue, cocktails and dive bars, and Saturday November 7, 2026 music and improv."><meta name="apple-mobile-web-app-title" content="Austin Guide"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta property="og:title" content="Austin, at your own pace."><meta property="og:description" content="A pocket guide from The Driskill. Good walks, good food, and a Saturday worth going out for."><meta property="og:type" content="website"><title>Austin, at your own pace · The Driskill Guide</title><link rel="icon" href="data:image/svg+xml,{__import__('urllib.parse',fromlist=['quote']).quote(favicon)}"><script>document.documentElement.classList.add('js');try{{const t=localStorage.getItem('austin-driskill-guide-theme');if(t==='dark'||(!t&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.dataset.theme='dark';}}catch(e){{}}</script><style>{css}</style></head>
 <body>{icons}<a class="skip-link" href="#main">Skip to the guide</a>
 <div class="wrap"><header class="masthead"><a href="#top" class="brand" aria-label="Austin pocket guide home"><svg class="brand-mark" aria-hidden="true"><use href="#i-compass"></use></svg><div><strong>AUSTIN</strong><span>A pocket guide · The Driskill edition</span></div></a><div class="header-actions js-only"><button id="theme-toggle" type="button" class="icon-button" aria-label="Switch to dark mode" aria-pressed="false">{icon('sun')}</button><button id="open-saved" type="button" class="save-list-button" aria-label="View your saved picks">{icon('bookmark')}<span class="saved-word">My picks</span><span class="count-dot" id="saved-count">0</span></button></div></header>
-<div class="hero" id="top"><div><p class="eyebrow">Downtown on foot. A little farther by choice.</p><h1>Austin,<br><em>at your own pace.</em></h1><p class="intro">A good walk, a memorable meal, and somewhere worth staying out for. Your collection of Austin favorites, starting at The Driskill.</p><div class="hero-links"><a class="button" href="#explore">Explore the guide {icon('arrow')}</a><a class="button secondary" href="#entertainment">Saturday’s shows {icon('music')}</a></div></div><aside class="base-card" aria-label="Your starting point">{hotel_art}<div class="base-copy"><p class="eyebrow">Your starting point</p><h2>The Driskill</h2><p class="address">604 Brazos Street<br>Downtown Austin</p>{link('Back to the hotel',maps(BASE,from_hotel=False),'map-link','pin')}</div><p class="base-note">Every travel estimate starts here. Map buttons open a route from the hotel; change the starting point in Maps if you’re already out.</p></aside></div>
+<div class="hero" id="top"><div><p class="eyebrow">Downtown on foot. A little farther by choice.</p><h1>Austin,<br><em>at your own pace.</em></h1><p class="intro">A good walk, a memorable meal, and somewhere worth staying out for. Your collection of Austin favorites, starting at The Driskill.</p><div class="hero-links"><a class="button" href="#explore">Explore the guide {icon('arrow')}</a><a class="button secondary" href="#entertainment">Saturday’s shows {icon('music')}</a></div></div><aside class="base-card" aria-label="Your starting point">{hotel_art}<div class="base-copy"><p class="eyebrow">Your starting point</p><h2>The Driskill</h2><p class="address">604 Brazos Street<br>Downtown Austin</p>{link('Back to the hotel',maps(BASE,from_hotel=False),'map-link','pin')}</div><p class="base-note">Every travel estimate starts here. Google Maps buttons open a route from the hotel; change the starting point if you’re already out.</p></aside></div>
 <div class="dateline"><span>{icon('sun')} Daytime ideas + Saturday, Nov 7, 2026</span><span>{icon('clock')} All show times are Austin / CST</span><span>{icon('bookmark')} Save a few favorites as you browse</span></div></div>
 <nav class="guide-nav" aria-label="Guide sections"><div class="wrap nav-inner"><a href="#explore" class="active" aria-current="location">{icon('compass')}<span>Explore<span class="nav-desktop"> Austin</span></span></a><a href="#food">{icon('food')}<span>Food & drinks</span></a><a href="#entertainment">{icon('music')}<span>Saturday<span class="nav-desktop"> entertainment</span></span></a><a href="#practical">{icon('info')}<span>Good to know</span></a></div></nav>
 <main id="main" class="wrap"><div id="archive-note" class="archive-note" hidden>This guide’s show listings are for <strong>Saturday, November 7, 2026</strong>. That date has passed. Use the venue links for current schedules and hours.</div><div class="tools js-only"><div class="search-box"><label class="sr-only" for="guide-search">Search places, food, music, or atmosphere</label>{icon('search')}<input id="guide-search" type="search" placeholder="Try jazz, brisket, a quiet drink…" autocomplete="off"><button type="button" id="clear-search" class="clear-search" aria-label="Clear search" hidden>{icon('close')}</button></div><label class="walk-toggle"><input id="walk-only" type="checkbox"> Walkable choices only</label></div><p id="search-status" class="search-status js-only" aria-live="polite" role="status"></p><noscript><p>The complete guide is below. Enable JavaScript for search, filters, saved picks, and dark mode.</p></noscript>
@@ -155,7 +193,7 @@ html = f'''<!doctype html>
 {section_html('explore')}{section_html('food')}{section_html('entertainment')}
 <section id="practical" class="guide-section" aria-labelledby="practical-title"><div class="section-heading"><div><span class="section-number eyebrow">04 / THE USEFUL LITTLE DETAILS</span><h2 id="practical-title">Good to know before you go.</h2><p>A flexible guide for choosing what feels good that day. Book the evening’s anchor, leave room to wander, and keep the hotel easy to find.</p></div></div>
 <div class="practical-grid">
-<article class="practical-card"><h3>{icon('walk')} Getting around</h3><p>The walk labels are estimates from The Driskill at a relaxed but steady pace. Allow extra time for crossings, stops, and your group’s pace. A “walkable” choice can still be a 25–30 minute walk; each card gives its range.</p><p>Short rides make South Congress, Terry Black’s, ColdTowne, and South Lamar venues easier. Round Rock’s ComedySportz is a separate outing, around 30–45 minutes by car. Traffic can change any ride estimate.</p><p>Apple Maps buttons open walking or driving directions from the hotel. Change the origin to your current location when you are already out.</p></article>
+<article class="practical-card"><h3>{icon('walk')} Getting around</h3><p>The walk labels are estimates from The Driskill at a relaxed but steady pace. Allow extra time for crossings, stops, and your group’s pace. A “walkable” choice can still be a 25–30 minute walk; each card gives its range.</p><p>Short rides make South Congress, Terry Black’s, ColdTowne, and South Lamar venues easier. Round Rock’s ComedySportz is a separate outing, around 30–45 minutes by car. Traffic can change any ride estimate.</p><p>Google Maps buttons open walking or driving directions from the hotel. Change the starting point to your current location when you are already out. On an iPhone, links open in the Google Maps app when installed, or in your browser otherwise.</p></article>
 <article class="practical-card"><h3>{icon('ticket')} Reserve the anchor</h3><p>Choose the evening’s show first, then leave enough time for dinner and the walk or ride. A seated steakhouse dinner works best with a reservation and an unhurried buffer.</p><p>Ticket links show current availability. Parker is the clearest seated jazz option; Antone’s is primarily standing. Elephant Room takes no reservations, so an early arrival improves the chance of sitting together.</p><p>Out of Bounds sells tickets by show block. For one or two performances, individual tickets are simpler than a festival badge.</p></article>
 <article class="practical-card"><h3>{icon('sun')} Daytime timing</h3><p>Saturday’s Waterloo Park Diwali program runs 9am–noon. The Capitol and museums can fill the middle of the day; the Central Library closes at 5pm.</p><p>1886 Café closes at 3pm, and Roaring Fork is dinner only on Saturday. La Condesa pauses between brunch and dinner. The individual cards have exact service windows.</p><p>For the lake, choose a daylight stroll and dress for the forecast. November is late in the bat season, so a bridge walk is best treated as a view, with no promise of a bat emergence.</p></article>
 <article class="practical-card"><h3>{icon('phone')} Keep it handy</h3><p>On an iPhone, open this guide in Safari, tap Share, then choose <strong>Add to Home Screen</strong>. Bookmark it if you prefer. Venue and map links open separately so the guide stays easy to return to.</p><p>The bookmark buttons keep your picks in this browser. They are personal to the device and do not sync to anyone else. Private browsing or clearing website data may remove them.</p><p>Dining prices are examples before tax and tip. Ticket fees are included only where the card says so. Official sources are linked inside every place’s details.</p><button type="button" id="print-guide" class="button secondary js-only">Print or save a PDF {icon('arrow')}</button></article>
